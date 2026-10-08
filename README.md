@@ -1,6 +1,5 @@
 <img width="1254" height="1254" alt="Imagem do ChatGPT 7 de out  de 2026, 20_14_44" src="https://github.com/user-attachments/assets/14867b34-8b91-436f-911a-6be4d063b183" />
-
-# Tales of Symphonia — Tradução PT-BR v1.0
+# Tales of Symphonia — Tradução PT-BR v1.1
 
 Tradução para português do Brasil de **Tales of Symphonia** (PC / Steam, 2016).
 
@@ -11,11 +10,32 @@ O jogo inteiro: a história, as skits, os menus e a arte.
 
 ---
 
+## Novidades da v1.1
+
+**7.366 falas que tinham ficado em espanhol, em 39 cenas.**
+
+Um jogador avisou que a casa do Dirk estava em espanhol. A causa era um erro na ferramenta que lê as cenas: em 39 dos 499 arquivos ela confundia um número solto no código com a lista de falas, achava a cena vazia e a pulava sem avisar. O erro foi corrigido e conferido nos 499 arquivos, e as 39 cenas foram traduzidas como o resto do jogo: japonês × português, depois a leitura só do português.
+
+O que entrou:
+
+- a casa do Dirk: o Brasão-Chave, a lembrança da mãe do Lloyd, o Anel Eterno e as espadas, a Coleção de Figuras e a customização;
+- Palmacosta: a gincana, a academia, a casa do governador-geral, a execução da Chocolat e o barco a vapor;
+- Meltokio: a chegada do Zelos, a despedida da Shihna, o Coliseu e os moradores da capital;
+- Mizuho: o acordo com o vice-chefe Tiga, a Ilha Ganryu e o quimono do duelo;
+- Heimdall: a noite antes do duelo com o Kratos;
+- os selos com o Remiel, o pacto com a Ondina e Asgard;
+- Izoold (Max e Lyla), Flanoir (Lágrima de Celsius e Luvas de Pinguim), a Floresta de Ymir, a vila dos Katz e a mina de Toize;
+- a masmorra do Livro de Niflheim.
+
+Quem já tem a v1.0 instala do mesmo jeito: copia a pasta P12E da v1.1 por cima. Só o texto muda; os saves continuam valendo.
+
+---
+
 ## O que está traduzido
 
 | | |
 |---|---|
-| Falas das cenas da história | 37.828 |
+| Falas das cenas da história | 45.194 |
 | Skits (as conversas com os retratos) | 3.397 falas em 391 skits |
 | Conversas de pousada e eventos de batalha | 623 |
 | Sistema — menus, itens, ars, monstros, títulos, tutoriais, sinopse | 5.931 |
@@ -27,7 +47,7 @@ O jogo inteiro: a história, as skits, os menus e a arte.
 ## Traduzida do japonês, não do inglês do jogo
 
 O PC não tem o texto japonês das cenas. Ele veio do **PS3 japonês**: as
-38.927 falas das cenas foram casadas, uma a uma, com o japonês original. O
+46.340 falas das cenas foram casadas, uma a uma, com o japonês original. O
 inglês e o espanhol serviram de testemunhas — quem decide o sentido é o japonês.
 
 **Onde o inglês se afasta do original:**
@@ -88,7 +108,7 @@ tradução oficial em português do Brasil: **Ars**, **Superação**, **Gald**,
 ## Verificação
 
 ```
-texto      47.779 textos, 0 erros no QA (códigos, largura, caracteres da fonte)
+texto      55.145 textos, 0 erros no QA (códigos, largura, caracteres da fonte)
 formato    os textos que o jogo monta na hora (%s, %d) seguem a estrutura do espanhol,
            e os símbolos de 2 bytes do jogo (×, →) estão preservados
 largura    caixa medida no jogo: até 54 letras por linha
@@ -142,7 +162,7 @@ Para sua segurança, o zip completo foi verificado no VirusTotal:
 
 ## O que ficou de fora, de propósito
 
-- Os **menus de depuração** (453 falas que o jogador nunca vê) ficam em inglês,
+- Os **menus de depuração** (e o mapa de testes, que o jogador nunca vê) ficam em inglês,
   como no jogo original.
 - O **logotipo** do jogo.
 
